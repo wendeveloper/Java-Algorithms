@@ -7,6 +7,7 @@ public class MinutesToSeconds {
     //static
     //int type
     public static int minutesToSeconds (int minutes) {
+
         return minutes * 60;
     }
 

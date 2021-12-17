@@ -7,6 +7,7 @@ public class ReturnSomethingToMe {
     with a space " " and the given argument a.
     */
     public static String giveMeSomething(String a) {
+
         return "something " + a;
     }
 }
