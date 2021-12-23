@@ -1,4 +1,6 @@
 public class VideoLength {
+    //Video Length
+    //https://edabit.com/challenge/9D39q2q9yAFCDM9da
 
     public static void main(String[] args) {
         System.out.println("test " + minutesToSeconds("01:00"));

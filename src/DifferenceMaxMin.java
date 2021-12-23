@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class DifferenceMaxMin {
+    //Difference of Max and Min
+    //https://edabit.com/challenge/hymPkXdhmDQLe87QT
 
     public static void main(String[] args) {
         System.out.println("test " + differenceMaxMin(new int[] {1,2,3,4,50}));
