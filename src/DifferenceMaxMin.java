@@ -5,7 +5,7 @@ public class DifferenceMaxMin {
     //https://edabit.com/challenge/hymPkXdhmDQLe87QT
 
     public static void main(String[] args) {
-        System.out.println("test " + differenceMaxMin(new int[] {1,2,3,4,50}));
+        System.out.println("difference between biggest and smallest num in array is " + differenceMaxMin(new int[] {1,2,3,4,50}));
     }
 
     //Create a function that takes an array and returns

@@ -4,7 +4,7 @@ public class DoubleLetters {
 
     public static void main(String[] args) {
 
-        System.out.println("test " + doubleLetters("loop"));
+        System.out.println("this word has two consecutive identical letters? " + doubleLetters("loop"));
     }
 
     // Create a function that takes a word and returns true

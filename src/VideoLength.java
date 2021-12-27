@@ -3,7 +3,7 @@ public class VideoLength {
     //https://edabit.com/challenge/9D39q2q9yAFCDM9da
 
     public static void main(String[] args) {
-        System.out.println("test " + minutesToSeconds("01:00"));
+        System.out.println("video length is " + minutesToSeconds("01:00") + " seconds.");
     }
     //You are given the length of a video in minutes. The format is
     // mm:ss (e.g.: "02:54"). Create a function that takes the video

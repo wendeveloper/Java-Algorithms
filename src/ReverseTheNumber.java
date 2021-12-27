@@ -4,7 +4,7 @@ public class ReverseTheNumber {
     //https://edabit.com/challenge/tiyPFonvAJ8e6H9jS
 
     public static void main(String[] args) {
-        System.out.println(reverseTheNumber(1234));
+        System.out.println("reversed number: " + reverseTheNumber(1234));
     }
 
     //creating function takes in a number and reverses it
