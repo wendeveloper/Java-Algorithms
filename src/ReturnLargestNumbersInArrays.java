@@ -1,16 +1,28 @@
-public class ReturnLargestNumbersInArrays {
-    public static void main(String[] args) {
-        System.out.println(largestOfFour(new int[] {1,2,3,4,50}));
-    }
+import java.util.Arrays;
 
+public class ReturnLargestNumbersInArrays {
+
+    public static void main(String[] args) {
+        System.out.println("Array of largest numbers: " + largestOfFour(new int[][] {{4, 5, 1, 3},{13, 27, 18, 26},{32, 35, 37, 39},{1000, 1001, 857, 1}}));
+    }
     /*
     Return an array consisting of the largest number from each provided sub-array. For simplicity,
     the provided array will contain exactly 4 sub-arrays.  Remember, you can iterate through an array with a simple for loop,
     and access each member with array syntax arr[i].
      */
-
-    public static String largestOfFour(arr) {
-
+    public static String largestOfFour(int[][] arr) {
+        int[] arrLargestNums = new int[4];
+        for( int i = 0; i < arr.length; i++){
+            int largestNum = arr[i][0];
+            for (int j = 0; j < arr[i].length; j++){
+                if (arr[i][j] > largestNum) {
+                    largestNum = arr[i][j];
+                }
+            }
+            arrLargestNums[i] = largestNum;
+        }
+        //return arrLargestNums[0];       //Need to work on this piece.  only able to return by element.
+        return Arrays.toString(arrLargestNums);
     }
-    return arr;
+
 }
