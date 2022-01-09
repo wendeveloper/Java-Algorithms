@@ -22,7 +22,7 @@ class Array2D_HourglassSum {
     public static int hourglassSum(List<List<Integer>> arr) {
 
         // Write your code here
-        int sumMaxHourglass = 0;
+        int sumMaxHourglass = -63;
         for (int i = 0; i < arr.size()-2; i++) {
             for (int j = 0; j < arr.get(i).size()-2; j++) {
                 int sumHourglass = (
