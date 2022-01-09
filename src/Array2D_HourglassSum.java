@@ -5,11 +5,14 @@ import static java.util.stream.Collectors.joining;
 class Array2D_HourglassSum {
     public static void main(String[] args) {
 
-        System.out.println(hourglassSum(new int[] {1, 1, 1, 0, 0, 0}, {0, 1, 0, 0, 0, 0},{1, 1, 1, 0, 0, 0},
-                {0, 0, 2, 4, 4, 0},
-                {0, 0, 0, 2, 0, 0},
-                {0, 0, 1, 2, 4, 0}
-        ));
+//        System.out.println(hourglassSum(new int[] {
+//                {1, 1, 1, 0, 0, 0},
+//                {0, 1, 0, 0, 0, 0},
+//                {1, 1, 1, 0, 0, 0},
+//                {0, 0, 2, 4, 4, 0},
+//                {0, 0, 0, 2, 0, 0},
+//                {0, 0, 1, 2, 4, 0}
+//        }));
     }
 
     /*
