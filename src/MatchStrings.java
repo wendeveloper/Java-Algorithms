@@ -1,4 +1,5 @@
 /*
+Case Insensitive Comparison
 https://edabit.com/challenge/D6Lcut2s2gEzdCPvv
 Write a function that validates whether
 two strings are identical. Make it case insensitive.
@@ -16,6 +17,7 @@ public class MatchStrings {
     }
 
     public static boolean match(String str1, String str2) {
+
         return str1.equalsIgnoreCase(str2);
     }
 }

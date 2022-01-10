@@ -1,4 +1,6 @@
 /*
+Two Makes Ten
+https://edabit.com/challenge/Nz6AzC4v8jyMCH2Tu
 Create a function that takes two arguments. Both arguments are integers, a and b.
 Return true if one of them is 10 or if their sum is 10.
 examples:
