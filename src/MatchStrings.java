@@ -10,7 +10,7 @@ match("venom", "VENOM") ➞ true
 match("mask", "mAskinG") ➞ false
 */
 
-public class matchStrings {
+public class MatchStrings {
     public static void main(String[] args) {
         System.out.println(match("hello", "hELLo"));
     }
