@@ -27,7 +27,15 @@ addNums("10") ➞ 10
 Notes:
 Numbers will always be separated by a comma and space.
 Your function should accept negative numbers.
- */
+*/
+
+/*
+            The valueOf method returns the relevant Number Object
+            holding the value of the argument passed. The argument
+            can be a primitive data type, String, etc.
+            https://www.tutorialspoint.com/java/number_valueof.htm
+   */
+
 
 
 import java.lang.reflect.Array;
@@ -37,7 +45,7 @@ import static java.lang.Integer.parseInt;
 
 public class AddingNumbersInAString {
     public static void main(String[] args) {
-        System.out.println(addNums("10"));
+        System.out.println(addNums("1, 2, 3, 4, 5, 6, 7"));
     }
 
     public static <let> int addNums(String nums) {
@@ -47,6 +55,7 @@ public class AddingNumbersInAString {
 
         int sumOfNums = 0;
         for (int i = 0; i < arrStrNums.length; i++) {
+
             //convert the string to integer.  Trim the leading space
             sumOfNums += Integer.valueOf(arrStrNums[i].trim());
         }
