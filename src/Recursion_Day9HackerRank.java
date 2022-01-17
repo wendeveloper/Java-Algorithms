@@ -5,8 +5,7 @@ public class Recursion_Day9HackerRank {
         System.out.println(factorial(3));
     }
     public static int factorial(int n) {
-
-        return (n * (n-1));
+        return (n == 1) ? 1 : n*factorial(n-1);
     }
 
 }
