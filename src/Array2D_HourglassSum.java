@@ -24,8 +24,6 @@ class Array2D_HourglassSum {
 
     public static int hourglassSum(List<List<Integer>> arr) {
 
-
-
         // Write your code here
         //int sumMaxHourglass = -63;
         int sumMaxHourglass =
