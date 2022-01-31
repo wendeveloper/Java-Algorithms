@@ -18,7 +18,7 @@ import java.util.Arrays;
 
 public class DifferenceBetweenHighestandLowest_Edabit {
     public static void main(String[] args) {
-        System.out.println(programmers(33, 72, 74));
+        System.out.println(programmers(1, 5, 9));
     }
 
     public static int programmers(int one, int two, int three) {
