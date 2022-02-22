@@ -22,9 +22,12 @@ public class RecursionSum {
 
     public static int recursionSum(int num) {
 
-        if (num >= 1) {
-            return (recursionSum(num - 1) + num);
-        }
-        return num;
+//        if (num >= 1) {
+//            return (recursionSum(num - 1) + num);
+//        }
+//        return num;
+
+        // ternary version
+        return (num >= 1) ? (recursionSum(num - 1) + num) : num;
     }
 }
