@@ -2,15 +2,21 @@ public class CountdownRecursive {
 
     public static void main(String[] args) {
 
-        countdown(5);
+        countdownRecursive(5);
     }
 
-    public static void countdown(int num) {
+    public static void countdownRecursive(int num) {
 
         if (num != 0) {
             System.out.println(num);
-            countdown(num - 1);
+            countdownRecursive(num - 1);
         }
+
+//        if (num == 0 ) {
+//            return;
+//        }
+//        System.out.println(num);
+//        countdownRecursive(num - 1);
 
     }
 
